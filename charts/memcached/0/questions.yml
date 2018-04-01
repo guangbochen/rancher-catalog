@@ -4,6 +4,6 @@ questions:
   description: "Replica count"
   type: string
 - variable: AntiAffinity
-  default: "hard"
-  description: "Select AnitAffinity as either hard or soft, default is hard"
+  default: "soft"
+  description: "Select AnitAffinity as either hard or soft, default is soft"
   type: string

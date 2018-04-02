@@ -24,7 +24,7 @@ questions:
   description: "Password for the database(defualt random 10 character long alphanumeric string)"
   type: string
 - variable: mariadb.persistence.enabled
-  default: "true"
+  default: "false"
   description: "Enable persistence using PVC of MariaDB"
   type: string
 - variable: serviceType
@@ -36,6 +36,6 @@ questions:
   description: "Magento mode. Valid values: default, production, developer. Default: default"
   type: string
 - variable: persistence.enabled
-  default: "true"
+  default: "false"
   description: "Enable persistence using PVC of magento and apache"
   type: string

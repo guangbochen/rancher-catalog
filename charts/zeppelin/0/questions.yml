@@ -1,9 +1,0 @@
-questions:
-- variable: hadoop.useConfigMap
-  default: "false"
-  description: "Use external Hadoop configuration for Spark executors"
-  type: string
-- variable: hadoop.configMapName
-  default: "hadoop-config"
-  description: "Name of the hadoop config map to use (must be in same namespace and config only when the hadoop.useConfigMap is set to true)"
-  type: string

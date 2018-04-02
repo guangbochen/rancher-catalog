@@ -8,7 +8,7 @@ questions:
   description: "Defaults to a random 10-character alphanumeric string if not set and usePassword is true"
   type: string
 - variable: persistence.enabled
-  default: "true"
+  default: "false"
   description: "Use a PVC to persist data"
   type: string
 - variable: persistence.size

@@ -24,11 +24,11 @@ questions:
   description: "Password for mariadbUser"
   type: string
 - variable: mariadb.persistence.enabled
-  default: "true"
+  default: "false"
   description: "Enable persistence using PVC of MariaDB"
   type: string
 - variable: persistence.enabled
-  default: "true"
+  default: "false"
   description: "Enable persistence using PVC of Wordpress"
   type: string
 - variable: serviceType

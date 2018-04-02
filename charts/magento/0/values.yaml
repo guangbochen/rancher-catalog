@@ -54,7 +54,7 @@ magentoLastName: LastName
 ## Mode
 ## ref: https://github.com/bitnami/bitnami-docker-magento#configuration
 ##
-magentoMode: default
+magentoMode: developer
 
 ## Set to `yes` to allow the container to be started with blank passwords
 ## ref: https://github.com/bitnami/bitnami-docker-magento#environment-variables

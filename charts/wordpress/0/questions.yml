@@ -5,7 +5,7 @@ questions:
   type: string
 - variable: wordpressEmail
   default: "user@example.com"
-  description: "Application password"
+  description: "Admin email"
   type: string
 - variable: mariadb.enabled
   default: "true"
@@ -20,8 +20,8 @@ questions:
   description: "Database user to create"
   type: string
 - variable: mariadb.mariadbPassword
-  default: "Password for mariadbUser"
-  description: "changeme"
+  default: "changeme"
+  description: "Password for mariadbUser"
   type: string
 - variable: mariadb.persistence.enabled
   default: "true"

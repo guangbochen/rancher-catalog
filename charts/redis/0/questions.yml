@@ -9,10 +9,10 @@ questions:
   type: string
 - variable: persistence.enabled
   default: "true"
-  description: "Enable persistence using Persistent Volume Claims"
+  description: "Use a PVC to persist data"
   type: string
 - variable: persistence.size
   default: "8Gi"
-  description: "redis data Persistent Volume Storage Size"
+  description: "Size of data volume"
   type: string
 

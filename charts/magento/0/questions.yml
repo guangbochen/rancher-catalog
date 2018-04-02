@@ -1,0 +1,29 @@
+questions:
+- variable: magentoUsername
+  default: "user"
+  description: "User of the application(ref: https://github.com/bitnami/bitnami-docker-magento#configuration)"
+  type: string
+- variable: magentoEmail
+  default: "user@example.com"
+  description: "Admin email"
+  type: string
+- variable: mariadb.enabled
+  default: "true"
+  description: "Whether to deploy a mariadb server to satisfy the applications database requirements. To use an external database set this to false and configure the externalDatabase parameters"
+  type: string
+- variable: mariadb.mariadbDatabase
+  default: "magento"
+  description: "Database name to create"
+  type: string
+- variable: mariadb.mariadbUser
+  default: "magento"
+  description: "Database user to create"
+  type: string
+- variable: mariadb.mariadbPassword
+  default: "Password for mariadbUser"
+  description: "changeme"
+  type: string
+- variable: mariadb.persistence.enabled
+  default: "true"
+  description: "Enable persistence using PVC"
+  type: string

@@ -1,0 +1,9 @@
+questions:
+- variable: hdfs.dataNode.replicas
+  default: "1"
+  description: "Number of HDFS DataNode replicas"
+  type: string
+- variable: yarn.nodeManager.replicas
+  default: "2"
+  description: "The number of YARN NodeManager instances"
+  type: string

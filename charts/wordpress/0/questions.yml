@@ -31,3 +31,7 @@ questions:
   default: "true"
   description: "Enable persistence using PVC of Wordpress"
   type: string
+- variable: serviceType
+  default: "NodePort"
+  description: "Kubernetes Service type"
+  type: string

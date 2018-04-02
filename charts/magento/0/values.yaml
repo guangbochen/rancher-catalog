@@ -50,7 +50,7 @@ magentoFirstName: FirstName
 ## ref: https://github.com/bitnami/bitnami-docker-magento#configuration
 ##
 magentoLastName: LastName
-ser
+
 ## Mode
 ## ref: https://github.com/bitnami/bitnami-docker-magento#configuration
 ##

@@ -1,0 +1,25 @@
+questions:
+- variable: mysqlUser
+  default: "admin"
+  description: "Username of new user to create"
+  type: string
+- variable: mysqlPassword
+  default: "changeme"
+  description: "Password for the new user"
+  type: string
+- variable: mysqlDatabase
+  default: ""
+  description: "Name for new database to create"
+  type: string
+- variable: persistence.enabled
+  default: "false"
+  description: "Use a PVC to persist data"
+  type: string
+- variable: persistence.size
+  default: "10Gi"
+  description: "Size of data volume"
+  type: string
+- variable: persistence.storageClass
+  default: ""
+  description: "Type of persistent volume claim"
+  type: string
